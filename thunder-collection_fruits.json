@@ -1,0 +1,56 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "fruits",
+  "dateExported": "2023-01-31T19:51:48.112Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "630dcba0-5123-464d-8213-62c518924261",
+      "colId": "f5f70d48-27c5-44b5-9a60-9140d0e46710",
+      "containerId": "",
+      "name": "GET /fruits",
+      "url": "http://localhost:5000/fruits",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2023-01-31T19:47:55.366Z",
+      "modified": "2023-01-31T19:48:05.210Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "f69ceb81-331f-42ec-86c5-1019df62d517",
+      "colId": "f5f70d48-27c5-44b5-9a60-9140d0e46710",
+      "containerId": "",
+      "name": "GET /fruits/:id",
+      "url": "http://localhost:5000/fruits/1",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2023-01-31T19:48:10.446Z",
+      "modified": "2023-01-31T19:48:42.067Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "8a57da51-130a-4a67-9bf3-e3b8fbb8f16c",
+      "colId": "f5f70d48-27c5-44b5-9a60-9140d0e46710",
+      "containerId": "",
+      "name": "POST /fruits/",
+      "url": "http://localhost:5000/fruits",
+      "method": "POST",
+      "sortNum": 30000,
+      "created": "2023-01-31T19:51:08.272Z",
+      "modified": "2023-01-31T19:51:21.255Z",
+      "headers": [],
+      "params": [],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"name\": \"Apple\",\n  \"price\": 2000\n}",
+        "form": []
+      },
+      "tests": []
+    }
+  ]
+}
